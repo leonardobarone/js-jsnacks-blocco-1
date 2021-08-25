@@ -12,4 +12,17 @@ for (var i = 0; i <= 5; i++ ) {
     
 }
 
-console.log(arr);
+var testo = '';
+
+for (var i = 0; i < arr.length; i++) {
+    
+    var li = document.createElement("li");
+
+    li.className = "prova"
+     
+    li.appendChild(document.createTextNode(arr[i]));
+     
+    document.getElementById("pippo").appendChild(li);
+    
+}
+
