@@ -4,7 +4,7 @@ var arr = [];
 
 for (var i = 0; i <= 5; i++ ) {
     
-    var n = prompt("Inserisci un numero!");
+    var n = parseInt(prompt("Inserisci un numero!"));
 
     if ( n % 2 == 1) {
         arr.push(n);
@@ -25,4 +25,5 @@ for (var i = 0; i < arr.length; i++) {
     document.getElementById("pippo").appendChild(li);
     
 }
+
 
